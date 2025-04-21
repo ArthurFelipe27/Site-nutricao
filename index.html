@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nutricionista [Nome do Seu Irmão]</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Nutricionista Ywri Matos</h1>
+    <p>Saúde e bem-estar através da nutrição!</p>
+  </header>
+
+  <section id="sobre">
+    <h2>Quem sou eu</h2>
+    <p>
+      Sou nutricionista com formação em [Faculdade X], especializado em atendimentos
+      presenciais e online, ajudando pessoas a conquistarem uma alimentação equilibrada
+      e saudável.
+    </p>
+  </section>
+
+  <section id="servicos">
+    <h2>Serviços</h2>
+    <ul>
+      <li>Avaliação nutricional completa</li>
+      <li>Planos alimentares personalizados</li>
+      <li>Atendimento presencial e online</li>
+      <li>Reeducação alimentar</li>
+    </ul>
+  </section>
+
+  <section id="contato">
+    <h2>Entre em Contato</h2>
+    <form action="https://formsubmit.co/arthurfelipematos837@gmail.com" method="POST" data-formsubmit >
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+  
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+  
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" required></textarea>
+  
+      <!-- Proteções extras -->
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_subject" value="Nova mensagem do site!">
+      <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html"> 
+  
+      <button type="submit" id="btn-enviar">
+        <span id="btn-texto">Enviar Mensagem</span>
+        <span id="spinner" style="display: none;">⏳</span>
+      </button>
+      
+    </form>
+  
+    <div class="whatsapp">
+      <p>Ou fale diretamente pelo WhatsApp:</p>
+      <a href="https://wa.me/558981176858" target="_blank" class="botao-whatsapp">📱 Falar pelo WhatsApp</a>
+    </div>
+  </section>
+  
+
+  <footer>
+    <p>&copy; 2025 Nutricionista Ywri Matos. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="/scritp.js"></script>
+</body>
+</html>
