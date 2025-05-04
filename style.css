@@ -17,14 +17,15 @@ header {
 
 .logo-container {
   display: flex;
-  flex-direction: column;   
-  align-items: center;      
-  gap: 8px;                 
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
 }
 
 .logo {
-  height: 180px;  
+  height: 180px;
   width: auto;
+  border-radius: 25px;
 }
 
 section {
@@ -48,7 +49,9 @@ form {
   flex-direction: column;
 }
 
-form input, form textarea, form button {
+form input,
+form textarea,
+form button {
   margin-bottom: 1rem;
   padding: 0.75rem;
   font-size: 1rem;
