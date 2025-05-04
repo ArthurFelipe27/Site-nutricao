@@ -20,13 +20,13 @@
   <header>
     <div class="logo-container">
       <img src="img/logo.jpg" alt="Logo do Nutricionista" class="logo">
-      <h1>Nutricionista Ywri Matos</h1>
+      <h1 class="fade-in-up">Nutricionista Ywri Matos</h1>
     </div>
-    <p>Consultas Online & Presencial</p>
-    <p>Saúde e bem-estar através da nutrição!</p>
+    <p class="fade-in-up">Consultas Online & Presencial</p>
+    <p class="fade-in-up">Saúde e bem-estar através da nutrição!</p>
   </header>
 
-  <section id="sobre">
+  <section id="sobre" class="fade-in-up">
     <h2>Quem sou eu</h2>
     <p>
       Sou nutricionista com formação na UNIFSA, especializado em atendimentos
@@ -35,7 +35,7 @@
     </p>
   </section>
 
-  <section id="servicos">
+  <section id="servicos" class="fade-in-up">
     <h2>Serviços</h2>
     <ul>
       <li>Avaliação nutricional completa</li>
@@ -45,7 +45,7 @@
     </ul>
   </section>
 
-  <section id="contato">
+  <section id="contato" class="fade-in-up">
     <h2>Entre em Contato</h2>
     <form action="https://formsubmit.co/arthurfelipematos837@gmail.com" method="POST" data-formsubmit>
       <label for="nome">Nome:</label>
@@ -75,6 +75,22 @@
     </div>
   </section>
 
+  <section id="imc">
+    <h2>Calcule seu IMC</h2>
+    <form id="formIMC">
+      <label for="peso">Peso (kg):</label>
+      <input type="number" id="peso" required step="0.1">
+
+      <label for="altura">Altura (m):</label>
+      <input type="number" id="altura" required step="0.01">
+
+      <button type="submit">Calcular</button>
+    </form>
+
+    <div id="resultadoIMC"></div>
+  </section>
+
+
   <a href="https://wa.me/558981176858" target="_blank" id="whatsapp-btn">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/800px-WhatsApp.svg.png"
       alt="WhatsApp" />
@@ -82,6 +98,12 @@
 
   <footer>
     <p>&copy; 2025 Nutricionista Ywri Matos. Todos os direitos reservados.</p>
+
+    <div class="redes-sociais">
+      <a href="https://www.instagram.com/nutriywrimattos" target="_blank">
+        <img src="img/icon-Instagram.png" alt="Instagram" class="icone-social">
+      </a>
+    </div>
   </footer>
 
   <script src="/scritp.js"></script>
